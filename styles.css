@@ -3,7 +3,7 @@ body {
     padding: 1rem;
     box-sizing: border-box;
     height: 100vh;
-    background-color: rgb(29, 35, 51);
+    background-color: #161032;
     color: white;
   }
   
@@ -12,10 +12,33 @@ body {
     text-align: center;
     height: 100%;
   }
+
+  h2{
+    font-size:55px;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  input{
+    padding: 2rem;
+    font-size:15px;
+    margin-top: 2.5rem;
+  }
   
   p {
     padding: 2rem;
-    text-align: left;
-    font-size: large;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
   }
   
+  button{
+    padding:1rem 2rem;
+    font-size: 15px;
+    margin-top: 2.5rem;
+    background-color:whitesmoke;
+    color: #161032;
+    border: none;
+    outline: none;
+  }
